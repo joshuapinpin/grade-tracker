@@ -1,9 +1,7 @@
 package com.gradetracker.model;
 
 import java.util.*;
-
-import com.gradetracker.types.Grade;
-import com.gradetracker.types.Name;
+import com.gradetracker.*;
 
 public class Course{
     private final Name name;

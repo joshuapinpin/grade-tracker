@@ -1,6 +1,11 @@
 package com.gradetracker.model;
-import com.gradetracker.types.Name;
-import com.gradetracker.types.Grade;
-import com.gradetracker.types.Weight;
+import com.gradetracker.*;
 
-public record Assignment(Name name, Weight weight, Grade grade) {}
+public class Assignment {
+    private Name name;
+    private Grade grade;
+    private Weight weight;
+    Assignment(Name name, Grade grade, Weight weight){
+
+    }
+}
